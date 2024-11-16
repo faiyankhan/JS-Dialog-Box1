@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.icon {
+    height: 30px;
+    width: 130px;
+    margin-left: 50px;
+}
+
+.search-bar {
+    height: 20px;
+    width: 480px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px 0.5px #888888;
+}
