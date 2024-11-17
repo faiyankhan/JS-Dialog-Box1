@@ -29,7 +29,6 @@
 
 .text {
     font-size: 28px;
-    margin: 30px 110px;
 }
 
 .product-container {
@@ -44,19 +43,25 @@
 }
 
 .order-options {
-    margin-top: 30px;
-    margin-left: 110px;
     padding: 10px;
+    margin: 20px;
     width: 100px;
     border: none;
     background-color: red;
     color: white;
     border-radius: 20px;
     font-weight: bold;
+    box-shadow: 2px 2px 2px black;
 }
 
-.order-options:hover{
-    background-color: white;
-    color
-    transition: 0.8s
+.order-options:hover {
+    background-color: #ff8080;
+    color: black;
+    transition: 0.8s;
+    box-shadow: none;
+}
+
+.button-container {
+    margin-left: 110px;
+    margin-top: 50px;
 }
