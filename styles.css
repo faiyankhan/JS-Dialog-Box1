@@ -48,9 +48,10 @@
 
 .btn:hover{
     border-radius: 20px;
-    background-color: red;
-    color: white;
+    background-color: yellow;
+    color: black;
     transition: 1s;
+    border-radius: 2px solid black;
 }
 
 .text {
