@@ -118,9 +118,34 @@
 
 .model{
     background-color: white;
-    height: 300px;
+    padding: 20px 30px;
+    border-radius: 10px;
 }
 
+.form{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 .form-input{
-    width: 200px;
+    width: 300px;
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.btn-create-account{
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+    width: 325px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin-left: 18px;
+}
+
+.checkbox{
+    margin: 10px;
 }
