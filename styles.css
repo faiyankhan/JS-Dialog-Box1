@@ -54,17 +54,17 @@
     transition: 1s;
 }
 
-.text-1{
+.text-1 {
     display: block;
     margin-left: 37%;
     font-size: 25px;
 }
 
-.text-2{
+.text-2 {
     display: block;
     margin-left: 33%;
     font-size: 25px;
- 
+
 }
 
 .product-container {
@@ -104,38 +104,40 @@
     margin-top: 20px;
 }
 
-.overlay{
-    background-color:rgba(0, 0, 0, 0.6);
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
 
-.model{
+.model {
     background-color: white;
     padding: 20px 30px;
     border-radius: 10px;
+    position: relative;
 }
 
-.form{
-   display: flex; 
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.form-input{
+
+.form-input {
     width: 300px;
     margin: 10px 0;
     font-size: 20px;
     padding: 5px 10px;
 }
 
-.btn-create-account{
+.btn-create-account {
     border-radius: 10px;
     font-size: 17px;
     border: none;
@@ -146,6 +148,28 @@
     margin-left: 18px;
 }
 
-.checkbox{
+.checkbox {
     margin: 10px;
 }
+
+.signup {
+    font-size: 25px;
+    margin: 5px;
+    margin-top: 2px;
+    color:#3d3d5c;
+}
+
+.close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 20px;
+    padding: 10px;
+}
+
+.up{
+    margin-left: 18px;
+}
+
+
+
